@@ -1,0 +1,44 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "react-scripts start",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@types/react-native-maps": "^0.24.2",
+    "expo": "~42.0.1",
+    "expo-status-bar": "~1.0.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-maps": "0.28.0",
+    "react-native-web": "~0.13.12",
+    "react-native-web-maps": "^0.3.0",
+    "react-simple-maps": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@types/jest": "^26.0.24",
+    "@types/react": "^17.0.15",
+    "@types/react-native": "^0.64.12",
+    "@types/react-test-renderer": "^17.0.1",
+    "react-native-typescript-transformer": "^1.2.13",
+    "typescript": "^4.3.5"
+  },
+  "private": true,
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
